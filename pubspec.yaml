@@ -1,7 +1,7 @@
 name: form_builder_multi_dropdown_demo
 description: "FormBuilderMultiDropdown Demo"
 publish_to: 'none'
-version: 0.9.5
+version: 0.9.6
 #resolution: workspace # REMOVE this.
 homepage: https://o7planning.github.io
 
@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  form_builder_multi_dropdown: ^0.9.5
+  form_builder_multi_dropdown: ^0.9.6
   flutter_left_right_container: ^0.9.0
 
   flutter_form_builder: ^10.3.0+2
