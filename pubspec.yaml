@@ -1,0 +1,31 @@
+name: form_builder_multi_dropdown_demo
+description: "FormBuilderMultiDropdown Demo"
+publish_to: 'none'
+version: 0.9.5
+#resolution: workspace # REMOVE this.
+homepage: https://o7planning.github.io
+
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  form_builder_multi_dropdown: ^0.9.5
+  flutter_left_right_container: ^0.9.0
+
+  flutter_form_builder: ^10.3.0+2
+  form_builder_validators: ^11.3.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
