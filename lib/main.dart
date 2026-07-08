@@ -84,8 +84,7 @@ class _DemoDashboardPageState extends State<DemoDashboardPage> {
       body: LeftRightContainer(
         fixedSizeWidth: 320.0,
         minSideWidth: 320.0,
-        // Left side handles the feature options switcher
-        start: Container(
+        start: Material(
           color: Colors.grey.shade50,
           child: ListView(
             padding: const EdgeInsets.symmetric(vertical: 12.0),
